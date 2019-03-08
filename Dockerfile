@@ -26,6 +26,5 @@ RUN ./configure
 RUN make
 RUN make install
 
-
 # default command
 CMD ["vcftools"]
